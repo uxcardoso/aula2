@@ -1,11 +1,10 @@
-let valor1 = prompt("Informe um número")
-let valor2 = prompt("Informe outro número")
+let nome = prompt("Informe o seu primeiro nome")
+let sobrenome = prompt("Agora informe seu sobrenome")
+let ano = 2024
+let nascimento = prompt("Em que ano você nasceu?")
 
-/*let numero1 = parseFloat(valor1)
-let numero2= parseFloat(valor2) */
+let idade = ano - nascimento
 
-soma = parseFloat(valor1) + parseFloat(valor2)
+console.log(`Olá ${nome} ${sobrenome}, parabéns pelos seus ${idade} de idade`)
 
-console.log(soma)
-
-alert(`O resultado da soma dos números informados é ${soma}`)
+alert(`Olá ${nome} ${sobrenome}, parabéns pelos seus ${idade} de idade`)
